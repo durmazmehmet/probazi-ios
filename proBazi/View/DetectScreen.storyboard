@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Detect Device-->
+        <scene sceneID="cc8-bb-RYA">
+            <objects>
+                <viewController id="3id-NN-0zM" customClass="DetectDevice" customModule="proBazi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" alpha="0.94999998807907104" contentMode="scaleToFill" id="dCx-yf-9ED">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Welcome Background" translatesAutoresizingMaskIntoConstraints="NO" id="EPX-M4-2Fx">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="paR-8m-EID" userLabel="ust">
+                                <rect key="frame" x="0.0" y="20" width="375" height="281.5"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qp6-Gc-hAI" userLabel="alt">
+                                <rect key="frame" x="0.0" y="386" width="375" height="281"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNR-P9-Je1" userLabel="orta">
+                                <rect key="frame" x="0.0" y="301.5" width="375" height="84.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="proBaZi" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="3Pp-U8-P83">
+                                        <rect key="frame" x="0.0" y="0.5" width="345" height="60.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                        <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profesyonel Bazi Hesaplayıcı" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ytP-45-Frt">
+                                        <rect key="frame" x="0.0" y="61" width="345" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="BKQ-83-mtY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ytP-45-Frt" firstAttribute="trailing" secondItem="3Pp-U8-P83" secondAttribute="trailing" id="6H4-mk-Zez"/>
+                                    <constraint firstItem="3Pp-U8-P83" firstAttribute="leading" secondItem="MNR-P9-Je1" secondAttribute="leading" id="EYp-zf-d6t"/>
+                                    <constraint firstItem="3Pp-U8-P83" firstAttribute="top" secondItem="MNR-P9-Je1" secondAttribute="top" id="ItI-c5-h5Z"/>
+                                    <constraint firstAttribute="bottom" secondItem="ytP-45-Frt" secondAttribute="bottom" id="KyD-vB-umR"/>
+                                    <constraint firstAttribute="trailing" secondItem="ytP-45-Frt" secondAttribute="trailing" constant="30" id="TQb-6V-ysw"/>
+                                    <constraint firstItem="ytP-45-Frt" firstAttribute="top" secondItem="3Pp-U8-P83" secondAttribute="bottom" id="WlS-fu-Dft"/>
+                                    <constraint firstAttribute="trailing" secondItem="3Pp-U8-P83" secondAttribute="trailing" constant="30" id="ZVz-o7-3gA"/>
+                                    <constraint firstItem="3Pp-U8-P83" firstAttribute="leading" secondItem="ytP-45-Frt" secondAttribute="leading" id="y2n-CY-00h"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EPX-M4-2Fx" firstAttribute="leading" secondItem="VBs-NQ-OqR" secondAttribute="leading" id="190-uL-jmi"/>
+                            <constraint firstItem="qp6-Gc-hAI" firstAttribute="trailing" secondItem="VBs-NQ-OqR" secondAttribute="trailing" id="2se-ga-5H0"/>
+                            <constraint firstItem="paR-8m-EID" firstAttribute="trailing" secondItem="VBs-NQ-OqR" secondAttribute="trailing" id="4xD-ka-8rZ"/>
+                            <constraint firstItem="MNR-P9-Je1" firstAttribute="leading" secondItem="VBs-NQ-OqR" secondAttribute="leading" id="5Rf-kD-P8F"/>
+                            <constraint firstItem="MNR-P9-Je1" firstAttribute="top" secondItem="paR-8m-EID" secondAttribute="bottom" id="75j-j1-XUk"/>
+                            <constraint firstItem="qp6-Gc-hAI" firstAttribute="height" secondItem="paR-8m-EID" secondAttribute="height" id="BXF-Nb-35M"/>
+                            <constraint firstItem="paR-8m-EID" firstAttribute="top" secondItem="VBs-NQ-OqR" secondAttribute="top" id="JxF-yv-vOn"/>
+                            <constraint firstItem="EPX-M4-2Fx" firstAttribute="top" secondItem="VBs-NQ-OqR" secondAttribute="top" id="Otb-gB-m22"/>
+                            <constraint firstItem="qp6-Gc-hAI" firstAttribute="leading" secondItem="VBs-NQ-OqR" secondAttribute="leading" id="UL8-s6-nPk"/>
+                            <constraint firstItem="qp6-Gc-hAI" firstAttribute="top" secondItem="MNR-P9-Je1" secondAttribute="bottom" id="VeH-Fw-MQM"/>
+                            <constraint firstItem="EPX-M4-2Fx" firstAttribute="bottom" secondItem="VBs-NQ-OqR" secondAttribute="bottom" id="Xe4-zr-opb"/>
+                            <constraint firstItem="qp6-Gc-hAI" firstAttribute="bottom" secondItem="VBs-NQ-OqR" secondAttribute="bottom" id="Y3z-Jy-Lvb"/>
+                            <constraint firstItem="MNR-P9-Je1" firstAttribute="top" secondItem="paR-8m-EID" secondAttribute="bottom" id="aDa-F7-H1J"/>
+                            <constraint firstItem="paR-8m-EID" firstAttribute="leading" secondItem="VBs-NQ-OqR" secondAttribute="leading" id="dPm-HM-aq4"/>
+                            <constraint firstItem="qp6-Gc-hAI" firstAttribute="top" secondItem="MNR-P9-Je1" secondAttribute="bottom" id="gb6-74-TDm"/>
+                            <constraint firstItem="MNR-P9-Je1" firstAttribute="height" secondItem="paR-8m-EID" secondAttribute="height" multiplier="0.3" id="ksR-1b-PEb"/>
+                            <constraint firstItem="MNR-P9-Je1" firstAttribute="trailing" secondItem="VBs-NQ-OqR" secondAttribute="trailing" id="uJO-he-YVg"/>
+                            <constraint firstItem="EPX-M4-2Fx" firstAttribute="trailing" secondItem="VBs-NQ-OqR" secondAttribute="trailing" id="wqo-p6-Ak9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VBs-NQ-OqR"/>
+                    </view>
+                    <connections>
+                        <segue destination="UgX-77-JV4" kind="show" identifier="toIPad" id="ht2-bs-q1E"/>
+                        <segue destination="LJ2-qB-rpO" kind="show" identifier="toIPhone" id="Mvp-Ye-3TK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dgV-9l-QKw" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="454" y="468"/>
+        </scene>
+        <!--Ipad-->
+        <scene sceneID="9x6-0m-iXZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Ipad" id="UgX-77-JV4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UK1-Gn-nMg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="201" y="922"/>
+        </scene>
+        <!--Iphone-->
+        <scene sceneID="5T1-PJ-pTe">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Iphone" id="LJ2-qB-rpO" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JIA-Ga-24a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="694" y="922"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Welcome Background" width="960" height="477"/>
+    </resources>
+</document>
