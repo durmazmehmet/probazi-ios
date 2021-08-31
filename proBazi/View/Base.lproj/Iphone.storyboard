@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GEy-Wh-H0I">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GEy-Wh-H0I">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -253,10 +251,10 @@
                                 </items>
                             </navigationBar>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kQ7-Ob-TIB" userLabel="Headers">
-                                <rect key="frame" x="5" y="74" width="365" height="20.5"/>
+                                <rect key="frame" x="5" y="74" width="365" height="20"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="時 Saat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xz5-BC-pKg">
-                                        <rect key="frame" x="0.0" y="0.0" width="87.5" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="87.5" height="20"/>
                                         <color key="backgroundColor" red="0.074509803921568626" green="0.16078431372549018" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -268,7 +266,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日 Gün" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhN-PD-EN6">
-                                        <rect key="frame" x="92.5" y="0.0" width="87.5" height="20.5"/>
+                                        <rect key="frame" x="92.5" y="0.0" width="87.5" height="20"/>
                                         <color key="backgroundColor" red="0.074509803921568626" green="0.16078431372549018" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -280,7 +278,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="月 Ay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEK-m5-m8O">
-                                        <rect key="frame" x="185" y="0.0" width="87.5" height="20.5"/>
+                                        <rect key="frame" x="185" y="0.0" width="87.5" height="20"/>
                                         <color key="backgroundColor" red="0.074509803921568626" green="0.16078431372549018" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -292,7 +290,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="年 Yıl" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vmL-JR-IWZ">
-                                        <rect key="frame" x="277.5" y="0.0" width="87.5" height="20.5"/>
+                                        <rect key="frame" x="277.5" y="0.0" width="87.5" height="20"/>
                                         <color key="backgroundColor" red="0.074509803921568626" green="0.16078431372549018" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -305,7 +303,7 @@
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="20.5" id="PG4-H0-Hbo"/>
+                                    <constraint firstAttribute="height" constant="20" id="PG4-H0-Hbo"/>
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KMs-kp-I5E" userLabel="TabPlaceHolder">
@@ -315,448 +313,99 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tz-nk-0NT" userLabel="ust">
-                                <rect key="frame" x="5" y="96.5" width="365" height="228.5"/>
+                                <rect key="frame" x="5" y="96" width="365" height="238.5"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="a3S-c7-DGG">
-                                        <rect key="frame" x="0.0" y="0.0" width="365" height="228.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="a3S-c7-DGG">
+                                        <rect key="frame" x="0.0" y="0.0" width="365" height="238.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="G10-p6-Q7s">
-                                                <rect key="frame" x="0.0" y="0.0" width="365" height="113.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="G10-p6-Q7s" userLabel="ELEMENTLER">
+                                                <rect key="frame" x="0.0" y="0.0" width="365" height="97.5"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="jQH-2x-cCV">
-                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="113.5"/>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tr_丁" translatesAutoresizingMaskIntoConstraints="NO" id="jQH-2x-cCV">
+                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="97.5"/>
                                                     </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="BgR-AU-lsN">
-                                                        <rect key="frame" x="92" y="0.0" width="89.5" height="113.5"/>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tr_丁" translatesAutoresizingMaskIntoConstraints="NO" id="BgR-AU-lsN">
+                                                        <rect key="frame" x="92" y="0.0" width="89.5" height="97.5"/>
                                                     </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="PEe-4I-Lsp">
-                                                        <rect key="frame" x="183.5" y="0.0" width="90" height="113.5"/>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tr_丁" translatesAutoresizingMaskIntoConstraints="NO" id="PEe-4I-Lsp">
+                                                        <rect key="frame" x="183.5" y="0.0" width="90" height="97.5"/>
                                                     </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="c86-Pi-Jt1">
-                                                        <rect key="frame" x="275.5" y="0.0" width="89.5" height="113.5"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="3iY-Vs-Gwc">
-                                                <rect key="frame" x="0.0" y="115.5" width="365" height="113"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="C5R-zh-TTt">
-                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="113"/>
-                                                    </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="Znl-OJ-bc0">
-                                                        <rect key="frame" x="92" y="0.0" width="89.5" height="113"/>
-                                                    </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="Cdr-LL-oPJ">
-                                                        <rect key="frame" x="183.5" y="0.0" width="90" height="113"/>
-                                                    </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="SwA-KS-JFT">
-                                                        <rect key="frame" x="275.5" y="0.0" width="89.5" height="113"/>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tr_丁" translatesAutoresizingMaskIntoConstraints="NO" id="c86-Pi-Jt1">
+                                                        <rect key="frame" x="275.5" y="0.0" width="89.5" height="97.5"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="a3S-c7-DGG" firstAttribute="centerY" secondItem="8tz-nk-0NT" secondAttribute="centerY" id="Los-Er-y83"/>
-                                    <constraint firstAttribute="bottom" secondItem="a3S-c7-DGG" secondAttribute="bottom" id="UQP-bS-v05"/>
-                                    <constraint firstAttribute="trailing" secondItem="a3S-c7-DGG" secondAttribute="trailing" id="cnx-27-ilR"/>
-                                    <constraint firstItem="a3S-c7-DGG" firstAttribute="leading" secondItem="8tz-nk-0NT" secondAttribute="leading" id="eJ4-BI-Ozp"/>
-                                    <constraint firstItem="a3S-c7-DGG" firstAttribute="centerX" secondItem="8tz-nk-0NT" secondAttribute="centerX" id="v2O-OJ-gw7"/>
-                                    <constraint firstItem="a3S-c7-DGG" firstAttribute="top" secondItem="8tz-nk-0NT" secondAttribute="top" id="vIv-vF-O2n"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Hh-wi-ald" userLabel="alt">
-                                <rect key="frame" x="5" y="325" width="365" height="319"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="vGS-oL-6VM">
-                                        <rect key="frame" x="0.0" y="2" width="365" height="317"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="hTJ-YH-JnK" userLabel="Burç element">
-                                                <rect key="frame" x="0.0" y="0.0" width="365" height="37.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="3iY-Vs-Gwc" userLabel="BURCLAR">
+                                                <rect key="frame" x="0.0" y="99.5" width="365" height="97"/>
                                                 <subviews>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="A2e-PG-TC6">
-                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="37.5"/>
-                                                        <color key="backgroundColor" red="1" green="0.68627450980392157" blue="0.52941176470588236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="S20-M3-c88">
-                                                        <rect key="frame" x="92" y="0.0" width="89" height="37.5"/>
-                                                        <color key="backgroundColor" red="1" green="0.68627450980392157" blue="0.52941176470588236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="SNS-Gl-h2y">
-                                                        <rect key="frame" x="184" y="0.0" width="89" height="37.5"/>
-                                                        <color key="backgroundColor" red="1" green="0.68627450980392157" blue="0.52941176470588236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Whn-Z4-kjg">
-                                                        <rect key="frame" x="276" y="0.0" width="89" height="37.5"/>
-                                                        <color key="backgroundColor" red="1" green="0.68627450980392157" blue="0.52941176470588236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tr_亥" translatesAutoresizingMaskIntoConstraints="NO" id="C5R-zh-TTt">
+                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="97"/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tr_亥" translatesAutoresizingMaskIntoConstraints="NO" id="Znl-OJ-bc0">
+                                                        <rect key="frame" x="92" y="0.0" width="89.5" height="97"/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tr_亥" translatesAutoresizingMaskIntoConstraints="NO" id="Cdr-LL-oPJ">
+                                                        <rect key="frame" x="183.5" y="0.0" width="90" height="97"/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tr_亥" translatesAutoresizingMaskIntoConstraints="NO" id="SwA-KS-JFT">
+                                                        <rect key="frame" x="275.5" y="0.0" width="89.5" height="97"/>
+                                                    </imageView>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="GMO-G5-BBa" userLabel="secret1">
-                                                <rect key="frame" x="0.0" y="40.5" width="365" height="38"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="s4z-yM-r8O" userLabel="GIZLIELEMENTLER">
+                                                <rect key="frame" x="0.0" y="198.5" width="365" height="40"/>
                                                 <subviews>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="CEe-nV-kwE">
-                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="38"/>
-                                                        <color key="backgroundColor" red="0.93333333333333335" green="0.94117647058823528" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己 
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="3"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="mTx-Gs-0u2">
-                                                        <rect key="frame" x="92" y="0.0" width="89" height="38"/>
-                                                        <color key="backgroundColor" red="0.93333333333333335" green="0.94117647058823528" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己 
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="K5P-i6-V4l">
-                                                        <rect key="frame" x="184" y="0.0" width="89" height="38"/>
-                                                        <color key="backgroundColor" red="0.93333333333333335" green="0.94117647058823528" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己 
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="1fq-Un-eVn">
-                                                        <rect key="frame" x="276" y="0.0" width="89" height="38"/>
-                                                        <color key="backgroundColor" red="0.93333333333333335" green="0.94117647058823528" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己 
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Llf-t9-CFl" userLabel="secret2">
-                                                <rect key="frame" x="0.0" y="81.5" width="365" height="38"/>
-                                                <subviews>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="4pU-u0-8fX">
-                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="38"/>
-                                                        <color key="backgroundColor" red="0.93333333333333335" green="0.94117647058823528" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="N1Y-VT-Wxn">
-                                                        <rect key="frame" x="92" y="0.0" width="89" height="38"/>
-                                                        <color key="backgroundColor" red="0.93333333333333335" green="0.94117647058823528" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="enU-eW-zQw">
-                                                        <rect key="frame" x="184" y="0.0" width="89" height="38"/>
-                                                        <color key="backgroundColor" red="0.93333333333333335" green="0.94117647058823528" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="oao-hq-fKa">
-                                                        <rect key="frame" x="276" y="0.0" width="89" height="38"/>
-                                                        <color key="backgroundColor" red="0.93333333333333335" green="0.94117647058823528" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Gg1-4j-R6C" userLabel="secret3">
-                                                <rect key="frame" x="0.0" y="122.5" width="365" height="38"/>
-                                                <subviews>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="KOF-M2-lON">
-                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="38"/>
-                                                        <color key="backgroundColor" red="0.93333333333333335" green="0.94117647058823528" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="wXt-df-8WG">
-                                                        <rect key="frame" x="92" y="0.0" width="89" height="38"/>
-                                                        <color key="backgroundColor" red="0.93333333333333335" green="0.94117647058823528" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="4P8-D9-0wz">
-                                                        <rect key="frame" x="184" y="0.0" width="89" height="38"/>
-                                                        <color key="backgroundColor" red="0.93333333333333335" green="0.94117647058823528" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Xpn-io-2my">
-                                                        <rect key="frame" x="276" y="0.0" width="89" height="38"/>
-                                                        <color key="backgroundColor" red="0.93333333333333335" green="0.94117647058823528" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="XsN-vf-Wap" userLabel="star1">
-                                                <rect key="frame" x="0.0" y="163.5" width="365" height="75.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Y8x-9c-mYs">
-                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="75.5"/>
-                                                        <color key="backgroundColor" red="0.98039215686274506" green="0.82745098039215681" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">Aşk Çiçeği
-辰 Yin toprak
-辰 Ejderha</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="3"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="HjO-GE-kr1">
-                                                        <rect key="frame" x="92" y="0.0" width="89" height="75.5"/>
-                                                        <color key="backgroundColor" red="0.98039215686274506" green="0.82745098039215681" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">Erdem
-辰 Yin toprak
-辰 Ejderha</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="3"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="m9L-wA-x2n">
-                                                        <rect key="frame" x="184" y="0.0" width="89" height="75.5"/>
-                                                        <color key="backgroundColor" red="0.98039215686274506" green="0.82745098039215681" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">Akademik
-辰 Yin toprak
-辰 Ejderha</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="3"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="ugz-Gr-Vve">
-                                                        <rect key="frame" x="276" y="0.0" width="89" height="75.5"/>
-                                                        <color key="backgroundColor" red="0.98039215686274506" green="0.82745098039215681" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">Yanlızlık
-辰 Yin toprak
-辰 Ejderha</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="3"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="j4K-hX-05d" userLabel="star2">
-                                                <rect key="frame" x="0.0" y="242" width="365" height="75"/>
-                                                <subviews>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="GZd-Wb-z72">
-                                                        <rect key="frame" x="0.0" y="0.0" width="119.5" height="75"/>
-                                                        <color key="backgroundColor" red="0.98039215686274506" green="0.82745098039215681" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">Seyahat Atı
-辰 Yin toprak
-辰 Ejderha</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="xES-cj-sDF">
-                                                        <rect key="frame" x="122.5" y="0.0" width="120" height="75"/>
-                                                        <color key="backgroundColor" red="0.98039215686274506" green="0.82745098039215681" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">Sanat Yıldızı
-辰 Yin toprak
-辰 Ejderha</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="vkz-Ta-YAc">
-                                                        <rect key="frame" x="245.5" y="0.0" width="119.5" height="75"/>
-                                                        <color key="backgroundColor" red="0.98039215686274506" green="0.82745098039215681" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">Koruyucu Melek
-辰 Yin toprak
-辰 Ejderha</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tr_亥gizli" translatesAutoresizingMaskIntoConstraints="NO" id="q0T-7s-qGd">
+                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="40"/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tr_亥gizli" translatesAutoresizingMaskIntoConstraints="NO" id="80n-Sy-oyf">
+                                                        <rect key="frame" x="92" y="0.0" width="89" height="40"/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tr_亥gizli" translatesAutoresizingMaskIntoConstraints="NO" id="3kd-5t-lug">
+                                                        <rect key="frame" x="184" y="0.0" width="89" height="40"/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tr_亥gizli" translatesAutoresizingMaskIntoConstraints="NO" id="uo2-6g-P3Q">
+                                                        <rect key="frame" x="276" y="0.0" width="89" height="40"/>
+                                                    </imageView>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="GMO-G5-BBa" firstAttribute="height" secondItem="hTJ-YH-JnK" secondAttribute="height" id="2r3-tv-sdd"/>
-                                            <constraint firstItem="Gg1-4j-R6C" firstAttribute="height" secondItem="hTJ-YH-JnK" secondAttribute="height" id="4yh-8g-xg1"/>
-                                            <constraint firstItem="XsN-vf-Wap" firstAttribute="height" secondItem="hTJ-YH-JnK" secondAttribute="height" multiplier="2" id="5Uo-WT-Uxd"/>
-                                            <constraint firstItem="j4K-hX-05d" firstAttribute="height" secondItem="hTJ-YH-JnK" secondAttribute="height" multiplier="2" id="bph-Op-O5j"/>
-                                            <constraint firstItem="Llf-t9-CFl" firstAttribute="height" secondItem="hTJ-YH-JnK" secondAttribute="height" id="vba-qC-orS"/>
+                                            <constraint firstItem="G10-p6-Q7s" firstAttribute="height" secondItem="3iY-Vs-Gwc" secondAttribute="height" multiplier="1:1" id="xcO-vB-eYQ"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="vGS-oL-6VM" secondAttribute="trailing" id="2zJ-JZ-evU"/>
-                                    <constraint firstAttribute="bottom" secondItem="vGS-oL-6VM" secondAttribute="bottom" id="50j-8z-wbi"/>
-                                    <constraint firstItem="vGS-oL-6VM" firstAttribute="leading" secondItem="5Hh-wi-ald" secondAttribute="leading" id="qIr-fz-OXg"/>
-                                    <constraint firstItem="vGS-oL-6VM" firstAttribute="top" secondItem="5Hh-wi-ald" secondAttribute="top" constant="2" id="qhi-cT-5Tk"/>
+                                    <constraint firstItem="a3S-c7-DGG" firstAttribute="leading" secondItem="8tz-nk-0NT" secondAttribute="leading" id="CZV-Sw-ZBH"/>
+                                    <constraint firstItem="a3S-c7-DGG" firstAttribute="top" secondItem="8tz-nk-0NT" secondAttribute="top" id="Kgf-M7-yJh"/>
+                                    <constraint firstAttribute="trailing" secondItem="a3S-c7-DGG" secondAttribute="trailing" id="VrL-wJ-Csf"/>
+                                    <constraint firstAttribute="bottom" secondItem="a3S-c7-DGG" secondAttribute="bottom" id="YDt-bi-goV"/>
                                 </constraints>
                             </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="50x-FN-lQe">
+                                <rect key="frame" x="-441" y="343" width="1306" height="325"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTK-Qh-5M7">
+                                        <rect key="frame" x="32" y="134" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uTK-Qh-5M7" secondAttribute="trailing" constant="1228" id="Mrw-VZ-mRq"/>
+                                    <constraint firstAttribute="bottom" secondItem="uTK-Qh-5M7" secondAttribute="bottom" constant="161" id="WS1-sN-l8o"/>
+                                    <constraint firstItem="uTK-Qh-5M7" firstAttribute="top" secondItem="50x-FN-lQe" secondAttribute="top" constant="134" id="c5l-Ft-QwI"/>
+                                    <constraint firstItem="uTK-Qh-5M7" firstAttribute="leading" secondItem="50x-FN-lQe" secondAttribute="leading" constant="32" id="wAP-mZ-9cl"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="RKx-Mt-ysn" firstAttribute="trailing" secondItem="5Hh-wi-ald" secondAttribute="trailing" constant="5" id="40R-Z9-K2R"/>
                             <constraint firstItem="8tz-nk-0NT" firstAttribute="top" secondItem="kQ7-Ob-TIB" secondAttribute="bottom" constant="2" id="6Q4-LD-tqA"/>
                             <constraint firstItem="qve-sP-OWk" firstAttribute="top" secondItem="RKx-Mt-ysn" secondAttribute="top" id="6Se-IW-hnn"/>
+                            <constraint firstAttribute="bottom" secondItem="50x-FN-lQe" secondAttribute="bottom" constant="-1" id="9B7-Nq-fgr"/>
                             <constraint firstItem="kQ7-Ob-TIB" firstAttribute="top" secondItem="qve-sP-OWk" secondAttribute="bottom" constant="10" id="H5T-fS-W0u"/>
-                            <constraint firstItem="5Hh-wi-ald" firstAttribute="top" secondItem="8tz-nk-0NT" secondAttribute="bottom" id="K7c-I6-6qn"/>
                             <constraint firstItem="KMs-kp-I5E" firstAttribute="trailing" secondItem="RKx-Mt-ysn" secondAttribute="trailing" id="KYJ-dR-WzA"/>
+                            <constraint firstItem="8tz-nk-0NT" firstAttribute="height" secondItem="50x-FN-lQe" secondAttribute="height" multiplier="1:1.5" constant="21.833333333333343" id="L8V-YM-Tls"/>
                             <constraint firstItem="qve-sP-OWk" firstAttribute="leading" secondItem="RKx-Mt-ysn" secondAttribute="leading" id="QWe-7i-L96"/>
                             <constraint firstItem="KMs-kp-I5E" firstAttribute="bottom" secondItem="RKx-Mt-ysn" secondAttribute="bottom" id="Va7-CI-qkv"/>
                             <constraint firstItem="qve-sP-OWk" firstAttribute="trailing" secondItem="RKx-Mt-ysn" secondAttribute="trailing" id="Xkw-pI-dJn"/>
@@ -765,16 +414,16 @@ Yin Toprak</string>
                             <constraint firstItem="KMs-kp-I5E" firstAttribute="leading" secondItem="RKx-Mt-ysn" secondAttribute="leading" id="eym-Ul-gC6"/>
                             <constraint firstItem="kQ7-Ob-TIB" firstAttribute="leading" secondItem="RKx-Mt-ysn" secondAttribute="leading" constant="5" id="fcS-Sv-vlb"/>
                             <constraint firstItem="RKx-Mt-ysn" firstAttribute="trailing" secondItem="8tz-nk-0NT" secondAttribute="trailing" constant="5" id="gJT-5s-crZ"/>
-                            <constraint firstItem="5Hh-wi-ald" firstAttribute="height" secondItem="8tz-nk-0NT" secondAttribute="height" multiplier="1.4:1" id="hup-cq-eKd"/>
-                            <constraint firstItem="KMs-kp-I5E" firstAttribute="top" secondItem="5Hh-wi-ald" secondAttribute="bottom" constant="8" id="lzG-xk-iH6"/>
-                            <constraint firstItem="5Hh-wi-ald" firstAttribute="leading" secondItem="RKx-Mt-ysn" secondAttribute="leading" constant="5" id="sK4-4V-Lht"/>
+                            <constraint firstItem="50x-FN-lQe" firstAttribute="top" secondItem="spp-uK-sEl" secondAttribute="top" constant="343" id="gu7-lf-ILQ"/>
+                            <constraint firstItem="RKx-Mt-ysn" firstAttribute="trailing" secondItem="50x-FN-lQe" secondAttribute="trailing" constant="-490" id="pDr-5R-5FF"/>
+                            <constraint firstItem="50x-FN-lQe" firstAttribute="leading" secondItem="8tz-nk-0NT" secondAttribute="leading" constant="-446" id="w97-AN-ZxD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RKx-Mt-ysn"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="175-bp-Sg2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2038" y="1494"/>
+            <point key="canvasLocation" x="-586.39999999999998" y="1493.7031484257873"/>
         </scene>
         <!--Seçenekler-->
         <scene sceneID="4d2-7n-SkA">
@@ -895,30 +544,30 @@ Yin Toprak</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="McV-Sv-OOA" userLabel="ust">
-                                <rect key="frame" x="5" y="96.5" width="365" height="228.5"/>
+                                <rect key="frame" x="5" y="96.5" width="365" height="228"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ncK-75-51a">
-                                        <rect key="frame" x="0.0" y="0.0" width="365" height="228.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="365" height="228"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ePL-CX-II5">
-                                                <rect key="frame" x="0.0" y="0.0" width="365" height="113.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="365" height="113"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="kAg-Dm-SXo">
-                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="113.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="113"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="qm9-wf-4U6">
-                                                        <rect key="frame" x="92" y="0.0" width="89.5" height="113.5"/>
+                                                        <rect key="frame" x="92" y="0.0" width="89.5" height="113"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="WfN-M8-XOE">
-                                                        <rect key="frame" x="183.5" y="0.0" width="90" height="113.5"/>
+                                                        <rect key="frame" x="183.5" y="0.0" width="90" height="113"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="dAA-uY-I8S">
-                                                        <rect key="frame" x="275.5" y="0.0" width="89.5" height="113.5"/>
+                                                        <rect key="frame" x="275.5" y="0.0" width="89.5" height="113"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Kca-cZ-g7f">
-                                                <rect key="frame" x="0.0" y="115.5" width="365" height="113"/>
+                                                <rect key="frame" x="0.0" y="115" width="365" height="113"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="CeF-5Z-Rfa">
                                                         <rect key="frame" x="0.0" y="0.0" width="90" height="113"/>
@@ -947,77 +596,16 @@ Yin Toprak</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iw5-bF-DXv" userLabel="alt">
-                                <rect key="frame" x="5" y="325" width="365" height="319"/>
+                                <rect key="frame" x="5" y="324.5" width="365" height="319.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="t7Y-f4-hNX">
-                                        <rect key="frame" x="0.0" y="2" width="365" height="317"/>
+                                        <rect key="frame" x="0.0" y="2" width="365" height="317.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="41W-gP-yjs" userLabel="Burç element">
-                                                <rect key="frame" x="0.0" y="0.0" width="365" height="46.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="5v8-QM-320">
-                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="46.5"/>
-                                                        <color key="backgroundColor" red="1" green="0.68627450980000004" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="q03-ZD-DBN">
-                                                        <rect key="frame" x="92" y="0.0" width="89" height="46.5"/>
-                                                        <color key="backgroundColor" red="1" green="0.68627450980000004" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Mbn-4y-rCx">
-                                                        <rect key="frame" x="184" y="0.0" width="89" height="46.5"/>
-                                                        <color key="backgroundColor" red="1" green="0.68627450980000004" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="mwI-Fe-t3a">
-                                                        <rect key="frame" x="276" y="0.0" width="89" height="46.5"/>
-                                                        <color key="backgroundColor" red="1" green="0.68627450980000004" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="JbU-PN-Klj" userLabel="YIH">
-                                                <rect key="frame" x="0.0" y="49.5" width="365" height="267.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="365" height="317.5"/>
                                                 <subviews>
                                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="GL2-MB-dZA">
-                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="267.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="317.5"/>
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <string key="text">癸癸 9999
 癸癸 9999
@@ -1039,7 +627,7 @@ Yin Toprak</string>
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
                                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="2H3-t0-9pT">
-                                                        <rect key="frame" x="92" y="0.0" width="89" height="267.5"/>
+                                                        <rect key="frame" x="92" y="0.0" width="89" height="317.5"/>
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <string key="text">癸癸 9999
 癸癸 9999
@@ -1061,7 +649,7 @@ Yin Toprak</string>
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
                                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="ai2-3B-DsS">
-                                                        <rect key="frame" x="184" y="0.0" width="89" height="267.5"/>
+                                                        <rect key="frame" x="184" y="0.0" width="89" height="317.5"/>
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <string key="text">癸癸 9999
 癸癸 9999
@@ -1083,7 +671,7 @@ Yin Toprak</string>
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
                                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="uY3-AI-rob">
-                                                        <rect key="frame" x="276" y="0.0" width="89" height="267.5"/>
+                                                        <rect key="frame" x="276" y="0.0" width="89" height="317.5"/>
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <string key="text">癸癸 9999
 癸癸 9999
@@ -1142,347 +730,15 @@ Yin Toprak</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S7K-Qw-JOi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2713" y="1494"/>
-        </scene>
-        <!--Part Two-->
-        <scene sceneID="wVr-vH-HSt">
-            <objects>
-                <viewController storyboardIdentifier="BHDPartTwo" id="8jl-zo-dCs" customClass="BHDPartTwo" customModule="proBazi" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Uot-Uu-cwz" userLabel="Bazi Goster Ana">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bH-rU-kQC">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <color key="backgroundColor" red="0.050980392159999999" green="0.4941176471" blue="0.51372549020000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="kwq-Er-wbO"/>
-                                </constraints>
-                                <color key="barTintColor" red="0.050980392159999999" green="0.4941176471" blue="0.51372549020000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem title="Mehmet DURMAZ - 19.02.1983 - Erkek" id="Ycx-Cg-Hrq"/>
-                                </items>
-                            </navigationBar>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="4ic-NA-D92" userLabel="Headers">
-                                <rect key="frame" x="5" y="74" width="365" height="20.5"/>
-                                <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Soa-Co-KH1">
-                                        <rect key="frame" x="0.0" y="0.0" width="87.5" height="20.5"/>
-                                        <color key="backgroundColor" red="0.074509803920000006" green="0.16078431369999999" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="6"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2010" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0c-8L-c5y">
-                                        <rect key="frame" x="92.5" y="0.0" width="87.5" height="20.5"/>
-                                        <color key="backgroundColor" red="0.074509803920000006" green="0.16078431369999999" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="6"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2005" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8JO-Si-YSu">
-                                        <rect key="frame" x="185" y="0.0" width="87.5" height="20.5"/>
-                                        <color key="backgroundColor" red="0.074509803920000006" green="0.16078431369999999" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="6"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJd-Oi-XZr">
-                                        <rect key="frame" x="277.5" y="0.0" width="87.5" height="20.5"/>
-                                        <color key="backgroundColor" red="0.074509803920000006" green="0.16078431369999999" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="6"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="20.5" id="rAk-3K-vjb"/>
-                                </constraints>
-                            </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fvr-Ce-bzP" userLabel="TabPlaceHolder">
-                                <rect key="frame" x="0.0" y="652" width="375" height="15"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="15" id="xAz-vO-Xkn"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kpD-Mr-Rlx" userLabel="ust">
-                                <rect key="frame" x="5" y="96.5" width="365" height="228.5"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="21X-bu-9cZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="365" height="228.5"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="e6x-Hi-fVi">
-                                                <rect key="frame" x="0.0" y="0.0" width="365" height="113.5"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="al6-p6-Zna">
-                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="113.5"/>
-                                                    </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="Zua-Jg-OYE">
-                                                        <rect key="frame" x="92" y="0.0" width="89.5" height="113.5"/>
-                                                    </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="Ayn-kV-VO8">
-                                                        <rect key="frame" x="183.5" y="0.0" width="90" height="113.5"/>
-                                                    </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="dNk-4E-7Ph">
-                                                        <rect key="frame" x="275.5" y="0.0" width="89.5" height="113.5"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ghA-Ip-hOr">
-                                                <rect key="frame" x="0.0" y="115.5" width="365" height="113"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="rbh-El-7hM">
-                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="113"/>
-                                                    </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="TTH-O1-CbL">
-                                                        <rect key="frame" x="92" y="0.0" width="89.5" height="113"/>
-                                                    </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="Fhi-cw-ouD">
-                                                        <rect key="frame" x="183.5" y="0.0" width="90" height="113"/>
-                                                    </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Domuz" translatesAutoresizingMaskIntoConstraints="NO" id="Isf-RJ-vk7">
-                                                        <rect key="frame" x="275.5" y="0.0" width="89.5" height="113"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="21X-bu-9cZ" secondAttribute="trailing" id="L9t-H4-ffb"/>
-                                    <constraint firstItem="21X-bu-9cZ" firstAttribute="leading" secondItem="kpD-Mr-Rlx" secondAttribute="leading" id="OVU-bU-x7z"/>
-                                    <constraint firstItem="21X-bu-9cZ" firstAttribute="centerX" secondItem="kpD-Mr-Rlx" secondAttribute="centerX" id="REy-w6-iap"/>
-                                    <constraint firstAttribute="bottom" secondItem="21X-bu-9cZ" secondAttribute="bottom" id="amY-lN-dJE"/>
-                                    <constraint firstItem="21X-bu-9cZ" firstAttribute="centerY" secondItem="kpD-Mr-Rlx" secondAttribute="centerY" id="dFf-2K-4bu"/>
-                                    <constraint firstItem="21X-bu-9cZ" firstAttribute="top" secondItem="kpD-Mr-Rlx" secondAttribute="top" id="zGx-kd-pTX"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JyA-cO-JkM" userLabel="alt">
-                                <rect key="frame" x="5" y="325" width="365" height="319"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="jT3-g4-xBI">
-                                        <rect key="frame" x="0.0" y="2" width="365" height="317"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="wz9-c5-Drp" userLabel="Burç element">
-                                                <rect key="frame" x="0.0" y="0.0" width="365" height="46.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="SoZ-sU-FK1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="46.5"/>
-                                                        <color key="backgroundColor" red="1" green="0.68627450980000004" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="YrG-YB-nh4">
-                                                        <rect key="frame" x="92" y="0.0" width="89" height="46.5"/>
-                                                        <color key="backgroundColor" red="1" green="0.68627450980000004" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="gGl-sF-sSi">
-                                                        <rect key="frame" x="184" y="0.0" width="89" height="46.5"/>
-                                                        <color key="backgroundColor" red="1" green="0.68627450980000004" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Vb4-wZ-f5A">
-                                                        <rect key="frame" x="276" y="0.0" width="89" height="46.5"/>
-                                                        <color key="backgroundColor" red="1" green="0.68627450980000004" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">己
-Yin Toprak</string>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="CVq-9r-ygs" userLabel="YIH">
-                                                <rect key="frame" x="0.0" y="49.5" width="365" height="267.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="PQg-dq-2TL">
-                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="267.5"/>
-                                                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="aW2-8a-d0y">
-                                                        <rect key="frame" x="92" y="0.0" width="89" height="267.5"/>
-                                                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="VJj-U0-1Up">
-                                                        <rect key="frame" x="184" y="0.0" width="89" height="267.5"/>
-                                                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Qb3-fN-kuF">
-                                                        <rect key="frame" x="276" y="0.0" width="89" height="267.5"/>
-                                                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999
-癸癸 9999</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="6"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="jT3-g4-xBI" firstAttribute="leading" secondItem="JyA-cO-JkM" secondAttribute="leading" id="6kp-PX-qsA"/>
-                                    <constraint firstAttribute="bottom" secondItem="jT3-g4-xBI" secondAttribute="bottom" id="NeS-mN-HoF"/>
-                                    <constraint firstAttribute="trailing" secondItem="jT3-g4-xBI" secondAttribute="trailing" id="OXW-ZC-FAu"/>
-                                    <constraint firstItem="jT3-g4-xBI" firstAttribute="top" secondItem="JyA-cO-JkM" secondAttribute="top" constant="2" id="qjm-1S-LLY"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="4ic-NA-D92" firstAttribute="top" secondItem="3bH-rU-kQC" secondAttribute="bottom" constant="10" id="0ox-rM-wsz"/>
-                            <constraint firstItem="JyA-cO-JkM" firstAttribute="top" secondItem="kpD-Mr-Rlx" secondAttribute="bottom" id="3Gn-rt-TcC"/>
-                            <constraint firstItem="kpD-Mr-Rlx" firstAttribute="leading" secondItem="L4f-YE-AOR" secondAttribute="leading" constant="5" id="5dc-Vo-M5x"/>
-                            <constraint firstItem="fvr-Ce-bzP" firstAttribute="bottom" secondItem="L4f-YE-AOR" secondAttribute="bottom" id="CMk-WL-dS5"/>
-                            <constraint firstItem="L4f-YE-AOR" firstAttribute="trailing" secondItem="4ic-NA-D92" secondAttribute="trailing" constant="5" id="GOC-4M-yMW"/>
-                            <constraint firstItem="kpD-Mr-Rlx" firstAttribute="top" secondItem="4ic-NA-D92" secondAttribute="bottom" constant="2" id="PHV-qd-Pp7"/>
-                            <constraint firstItem="fvr-Ce-bzP" firstAttribute="trailing" secondItem="L4f-YE-AOR" secondAttribute="trailing" id="Q4W-kI-A1f"/>
-                            <constraint firstItem="3bH-rU-kQC" firstAttribute="trailing" secondItem="L4f-YE-AOR" secondAttribute="trailing" id="SV7-Gj-pBI"/>
-                            <constraint firstItem="3bH-rU-kQC" firstAttribute="leading" secondItem="L4f-YE-AOR" secondAttribute="leading" id="XZK-bN-s1d"/>
-                            <constraint firstItem="fvr-Ce-bzP" firstAttribute="leading" secondItem="L4f-YE-AOR" secondAttribute="leading" id="Z0E-2i-nzo"/>
-                            <constraint firstItem="4ic-NA-D92" firstAttribute="leading" secondItem="L4f-YE-AOR" secondAttribute="leading" constant="5" id="dGY-oA-rt7"/>
-                            <constraint firstItem="fvr-Ce-bzP" firstAttribute="top" secondItem="JyA-cO-JkM" secondAttribute="bottom" constant="8" id="eSs-RI-1lC"/>
-                            <constraint firstItem="L4f-YE-AOR" firstAttribute="trailing" secondItem="kpD-Mr-Rlx" secondAttribute="trailing" constant="5" id="fgD-3v-H7x"/>
-                            <constraint firstItem="L4f-YE-AOR" firstAttribute="trailing" secondItem="JyA-cO-JkM" secondAttribute="trailing" constant="5" id="g0Y-c2-irI"/>
-                            <constraint firstItem="JyA-cO-JkM" firstAttribute="height" secondItem="kpD-Mr-Rlx" secondAttribute="height" multiplier="1.4:1" id="vqm-DZ-EBg"/>
-                            <constraint firstItem="3bH-rU-kQC" firstAttribute="top" secondItem="L4f-YE-AOR" secondAttribute="top" id="wWM-9v-6ug"/>
-                            <constraint firstItem="JyA-cO-JkM" firstAttribute="leading" secondItem="L4f-YE-AOR" secondAttribute="leading" constant="5" id="yjB-AP-U6B"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="L4f-YE-AOR"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3aW-K2-TlJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3388" y="1494"/>
+            <point key="canvasLocation" x="-586" y="754"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Domuz" width="387" height="465"/>
+        <image name="Domuz" width="214" height="287"/>
         <image name="Welcome Background" width="960" height="477"/>
+        <image name="tr_丁" width="214" height="281"/>
+        <image name="tr_亥" width="214" height="287"/>
+        <image name="tr_亥gizli" width="214" height="117"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="chm-Vs-a5y"/>
